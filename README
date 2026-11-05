@@ -1,0 +1,58 @@
+# Data Science 3010: Coursework Repository
+
+Welcome to the official repository for **Data Science 3010**. This repository contains all homework assignments, lab materials, and supporting datasets for the semester.
+
+---
+
+## 📂 Repository Structure
+
+The repository is organized into the following directories:
+
+```text
+DS-3010/
+├── data/                  # Shared datasets used across multiple assignments
+├── homeworks/             # Individual homework folders (HW1, HW2, etc.)
+│   ├── hw1/
+│   ├── hw2/
+│   └── ...
+├── labs/                  # In-class lab exercises and notebooks
+├── notebooks/             # Scratchpads and exploratory code examples
+└── README.md              # Course overview and instructions (this file)
+```
+
+---
+
+## 📝 Homework Structure
+
+Each homework assignment within the `homeworks/` directory follows a standardized layout to ensure smooth grading and reproducibility:
+
+```text
+homeworks/hwX/
+├── data/                  # Assignment-specific datasets (if applicable)
+├── notebooks/             # Jupyter Notebooks containing your analysis
+├── scripts/               # Python or R scripts (.py, .R) for modular code
+├── outputs/               # Generated figures, tables, or exported CSVs
+└── README.md              # Assignment-specific instructions and questions
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/ds-3010-coursework.git
+   cd ds-3010-coursework
+   ```
+
+2. **Set Up Your Environment:**
+   Make sure you have your virtual environment activated and dependencies installed (refer to the course requirements file for specific library versions).
+
+3. **Submitting Homework:**
+   * Place your completed work inside the respective `homeworks/hwX/` folder.
+   * Ensure all notebooks run cleanly from top to bottom before committing.
+   * Push your changes to your remote fork or submit according to instructor guidelines.
+
+---
+
+*Happy coding and exploring data!*
